@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:background="#892EBE"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="score"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/result_total_Ques"
+            android:text="Questions: "
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="7dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/result_Correct_Ques"
+            android:text="Correct Ques: "
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_width="match_parent"
+            android:layout_marginBottom="7dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/result_Wrong_Ques"
+            android:text="Wrong Ques: "
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/result_bt_playAgain"
+                android:text="Play Again"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/result_bt_mainmenu"
+                android:text="Main Menu"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+
+                android:textSize="22sp"
+                android:padding="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
